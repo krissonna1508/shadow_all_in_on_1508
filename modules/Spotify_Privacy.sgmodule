@@ -1,0 +1,8 @@
+#!name=Spotify Privacy
+#!desc=Gioi han ket noi telemetry; khong thay doi goi dang ky Spotify.
+#!homepage=https://github.com/krissonna1508/shadow_all_in_on_1508
+
+# Optional telemetry filtering. Disable if Spotify stops working normally.
+# No MITM, JavaScript, response rewriting or credential processing.
+[Rule]
+DOMAIN,aet.spotify.com,REJECT
